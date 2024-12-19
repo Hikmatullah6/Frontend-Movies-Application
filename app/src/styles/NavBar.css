@@ -1,0 +1,55 @@
+/* General Navbar Styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #007bff;
+    /* Navbar background color */
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Navbar Links */
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #ffcc00;
+    /* Highlight color on hover */
+}
+
+.navbar a.active {
+    font-weight: bold;
+    border-bottom: 2px solid #ffcc00;
+    /* Active link indicator */
+}
+
+/* Logout Button */
+.logout-button {
+    background-color: #ff4d4d;
+    /* Logout button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.logout-button:hover {
+    background-color: #e60000;
+}
+
+.logout-button:active {
+    transform: scale(0.95);
+    /* Slight shrink on click */
+}

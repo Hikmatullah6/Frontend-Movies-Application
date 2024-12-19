@@ -1,0 +1,106 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Page Title */
+h1 {
+    text-align: center;
+    color: #444;
+    margin: 20px 0;
+}
+
+/* Movie Details Container */
+.movie-details {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Movie Poster */
+.movie-details img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 0 auto 20px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Subheading */
+.movie-details h3 {
+    margin-top: 20px;
+    color: #666;
+}
+
+/* Text Content */
+.movie-details p {
+    line-height: 1.6;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* Success/Error Messages */
+.movie-details p[style="color: green"] {
+    text-align: center;
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+}
+
+.movie-details p[style="color: red"] {
+    text-align: center;
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+}
+
+/* Notes Textarea */
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: none;
+    margin-bottom: 20px;
+    background: #f4f4f4;
+    transition: border-color 0.3s;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    background: #fff;
+}
+
+/* Buttons */
+.movie-details button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.movie-details button:hover {
+    background-color: #0056b3;
+}
+
+.movie-details button:active {
+    background-color: #003f7f;
+}
